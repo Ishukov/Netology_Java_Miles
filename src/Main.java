@@ -5,11 +5,11 @@ public class Main {
          стоимости билета, другую для хранения количества
          рублей для одной бонусной мили */
 
-        int ticket_price = 678;
-        int miles_price = 20;
+        int ticketPrice = 678;
+        int milesPrice = 20;
 
-        int miles = ticket_price / miles_price;
-        System.out.println("Стоимость вашего билета " + ticket_price +" рублей");
+        int miles = ticketPrice / milesPrice;
+        System.out.println("Стоимость вашего билета " + ticketPrice +" рублей");
         System.out.println("Вам начисленно " + miles +" мили");
 
         /* Рассчитываете количество бонусных миль, используя
